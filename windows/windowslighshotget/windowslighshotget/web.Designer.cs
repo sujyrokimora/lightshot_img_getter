@@ -43,7 +43,6 @@ namespace printfinder
             this.webBrowser1.Name = "webBrowser1";
             this.webBrowser1.Size = new System.Drawing.Size(649, 426);
             this.webBrowser1.TabIndex = 0;
-           // this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
             // button1
             // 
@@ -57,7 +56,7 @@ namespace printfinder
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(260, 126);
+            this.pictureBox1.Location = new System.Drawing.Point(667, 121);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(280, 210);
             this.pictureBox1.TabIndex = 2;
@@ -68,11 +67,12 @@ namespace printfinder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(975, 450);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.webBrowser1);
             this.Name = "web";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "web";
             this.Load += new System.EventHandler(this.web_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

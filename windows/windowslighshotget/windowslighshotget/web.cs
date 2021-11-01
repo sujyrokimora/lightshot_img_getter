@@ -39,7 +39,7 @@ namespace printfinder
         private void button1_Click(object sender, EventArgs e)
         {
             Random rnd = new Random();
-                string link =main.RandomString(6);
+                string link =bruteforce.RandomString(6);
                 vars.fulllink = "https://prnt.sc/" + link;
                 webBrowser1.Url = new Uri(vars.fulllink.ToLower());
                

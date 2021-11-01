@@ -20,3 +20,4 @@ C:\Users\cruzx\source\repos\windowslighshotget\windowslighshotget\obj\Debug\wind
 C:\Users\cruzx\source\repos\windowslighshotget\windowslighshotget\obj\Debug\windowslighshotget.csproj.CoreCompileInputs.cache
 C:\Users\cruzx\source\repos\windowslighshotget\windowslighshotget\obj\Debug\printfinder.exe
 C:\Users\cruzx\source\repos\windowslighshotget\windowslighshotget\obj\Debug\printfinder.pdb
+C:\Users\cruzx\source\repos\windowslighshotget\windowslighshotget\obj\Debug\printfinder.bruteforce.resources

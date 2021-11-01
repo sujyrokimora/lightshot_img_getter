@@ -5,4 +5,4 @@ I was bored and decided to make a lightshot random img get
 This is still on alpha soon i will be putting textboxes in things
 # bugs
 
-The web button is broken
+The web thing is broken

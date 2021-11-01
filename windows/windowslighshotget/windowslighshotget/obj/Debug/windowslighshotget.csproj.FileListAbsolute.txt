@@ -1,0 +1,11 @@
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\bin\Debug\printfinder.exe.config
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\bin\Debug\printfinder.exe
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\bin\Debug\printfinder.pdb
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\obj\Debug\windowslighshotget.csprojAssemblyReference.cache
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\obj\Debug\printfinder.main.resources
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\obj\Debug\printfinder.Properties.Resources.resources
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\obj\Debug\printfinder.web.resources
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\obj\Debug\windowslighshotget.csproj.GenerateResource.cache
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\obj\Debug\windowslighshotget.csproj.CoreCompileInputs.cache
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\obj\Debug\printfinder.exe
+C:\Users\cruzx\source\repos\windowslighshotget\printfinder\obj\Debug\printfinder.pdb

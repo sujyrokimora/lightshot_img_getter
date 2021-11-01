@@ -1,0 +1,11 @@
+C:\Users\cruzx\source\repos\printfinder\printfinder\bin\Debug\printfinder.exe.config
+C:\Users\cruzx\source\repos\printfinder\printfinder\bin\Debug\printfinder.exe
+C:\Users\cruzx\source\repos\printfinder\printfinder\bin\Debug\printfinder.pdb
+C:\Users\cruzx\source\repos\printfinder\printfinder\obj\Debug\printfinder.csprojAssemblyReference.cache
+C:\Users\cruzx\source\repos\printfinder\printfinder\obj\Debug\printfinder.Properties.Resources.resources
+C:\Users\cruzx\source\repos\printfinder\printfinder\obj\Debug\printfinder.csproj.GenerateResource.cache
+C:\Users\cruzx\source\repos\printfinder\printfinder\obj\Debug\printfinder.csproj.CoreCompileInputs.cache
+C:\Users\cruzx\source\repos\printfinder\printfinder\obj\Debug\printfinder.exe
+C:\Users\cruzx\source\repos\printfinder\printfinder\obj\Debug\printfinder.pdb
+C:\Users\cruzx\source\repos\printfinder\printfinder\obj\Debug\printfinder.main.resources
+C:\Users\cruzx\source\repos\printfinder\printfinder\obj\Debug\printfinder.web.resources

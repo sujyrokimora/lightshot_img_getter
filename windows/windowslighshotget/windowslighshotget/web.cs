@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.IO;
+using System.Net;
 
 namespace printfinder
 {
@@ -32,10 +34,7 @@ namespace printfinder
             webBrowser1.ScriptErrorsSuppressed = true;
         }
 
-        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-            webBrowser1.Document.Body.InnerHtml = webBrowser1.Document.GetElementById("screenshot-image").OuterHtml;
-        }
+    
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -43,12 +42,53 @@ namespace printfinder
                 string link =main.RandomString(6);
                 vars.fulllink = "https://prnt.sc/" + link;
                 webBrowser1.Url = new Uri(vars.fulllink.ToLower());
-                webBrowser1.DocumentCompleted += webBrowser1_DocumentCompleted;
+               
 
 
             Thread.Sleep(100);
             this.Update();
-            
+
+            var request = WebRequest.Create(vars.fulllink);
+
+            /*try
+            {
+                using (var response = request.GetResponse())
+                using (var stream = response.GetResponseStream())
+                {
+                    pictureBox1.Image = Bitmap.FromStream(stream);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Something went wrong!");
+            }*/
+            string url= vars.fulllink;
+            try
+            {
+       
+      
+                WebClient web_client = new WebClient();
+                web_client.Headers.Add("User-Agent: Other");
+                System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls12;
+                //MemoryStream image_stream = new MemoryStream(web_client.DownloadData(url));
+                web_client.DownloadFile(url, "C:\\image.jpg");
+
+                // pictureBox1.Image = Image.FromStream(image_stream);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error downloading picture " +
+                    url + '\n' + ex.Message,
+                    "Download Error",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
